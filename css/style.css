@@ -59,7 +59,7 @@ header nav .logo {
 }
 
 .hero .left img {
-  width: 600px;
+  width: 500px;
 }
 
 .hero .right {
@@ -91,3 +91,35 @@ h1 span {
 .hero .right {
   margin-top: -7rem;
 }
+
+
+/* About */
+
+section {
+  padding: 6rem 0;
+}
+
+.about .about-us-img {
+   height: 400px;
+   
+ }
+
+ .about h3 {
+   margin-bottom: 1rem;
+   font-size: 1.5rem;
+   font-weight: 400;
+ }
+
+ 
+ .about h1 span {
+   color: var(--primary);
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+   font-weight: 400;
+ }
+
+ .about p {
+   color: var(--grey);
+   line-height: 1.8;
+   margin-bottom: 2rem;
+ }
