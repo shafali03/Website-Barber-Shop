@@ -21,6 +21,7 @@ body {
 
 header {
   background: var(--dark);
+  clip-path: polygon(0 0,  100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
 .container {
@@ -53,9 +54,12 @@ header nav .logo {
   margin-right: 3rem;
 }
 
+.hero {
+  padding: 6rem, 0;
+}
 
-.hero img {
-  width: 400px;
+.hero .left img {
+  width: 600px;
 }
 
 .hero .right {
@@ -77,4 +81,13 @@ header nav .logo {
 
 h1 span {
   color: var(--primary);
+}
+
+.right p {
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+
+.hero .right {
+  margin-top: -7rem;
 }
