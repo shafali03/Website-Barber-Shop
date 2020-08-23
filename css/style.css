@@ -19,7 +19,6 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  height: 8000px;
 }
 
 header {
@@ -104,61 +103,58 @@ section {
 }
 
 .about .about-us-img {
-   height: 400px;
-   
- }
+  height: 400px;
+}
 
- .about h3 {
-   margin-bottom: 1rem;
-   font-size: 1.5rem;
-   font-weight: 400;
- }
+.about h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
 
  
- .about h1 span {
-   color: var(--primary);
-   font-size: 1.5rem;
-   margin-bottom: 1rem;
-   font-weight: 400;
- }
+.about h1 span {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
 
- .about p {
-   color: var(--grey);
-   line-height: 1.8;
-   margin-bottom: 2rem;
- }
+.about p {
+  color: var(--grey);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
 
 
- /* services
+/* services
  *********************/
 
- .section-heading {
-   color: var(--secondary);
-   text-align: center;
-   line-height: 0.5;
-      margin-bottom: 2rem;
-
- }
-
-
- .section-heading + p {
-
-   color: var(--grey);
-   margin-bottom: 8rem;
-   text-align: center;
- }
+.section-heading {
+  color: var(--secondary);
+  text-align: center;
+  line-height: 0.5;
+  margin-bottom: 2rem;
+}
 
 
- section.services {
-   background: var(--light);
- }
+.section-heading + p {
+  color: var(--grey);
+  margin-bottom: 8rem;
+  text-align: center;
+}
 
- section.services .card-wrapper {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-column-gap: 2rem;
-   grid-row-gap: 6rem;
- }
+
+section.services {
+  background: var(--light);
+}
+
+section.services .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 6rem;
+}
 
 section.services .card-wrapper .card {
   background: var(--pure);
@@ -399,4 +395,24 @@ padding: 0.5rem;
 
 .contact .btn-wrapper {
   margin-top: 2rem;
+}
+
+footer {
+  background: var(--dark-grey);
+  text-align: center;
+  padding: 6rem 0;
+}
+
+footer .footer-socials a {
+  margin-right: 1rem;
+  color: var(--primary);
+}
+
+.footer-socials {
+  margin-bottom: 3rem;
+  margin-right: -1rem;
+}
+
+.copyright {
+  color: var(--grey); 
 }
