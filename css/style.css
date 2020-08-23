@@ -19,6 +19,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  height: 8000px;
 }
 
 header {
@@ -338,4 +339,30 @@ section.blog .card-wrapper {
 
 .card .card-content a.read-more {
   font-size: 0.8rem;
+}
+
+.contact .card-wrapper {
+  display:  grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+
+.contact .card-wrapper .card {
+  text-align: center;
+}
+
+.contact .card-wrapper .card i {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.contact .card-wrapper .card h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.contact .card-wrapper .card h6 {
+  font-size: 1rem;
+  color: var(--grey);
 }
