@@ -365,4 +365,38 @@ section.blog .card-wrapper {
 .contact .card-wrapper .card h6 {
   font-size: 1rem;
   color: var(--grey);
+  margin-bottom: 4rem;
+}
+
+.contact .input-wrap {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+  }
+
+.contact .input-wrap-2 {
+display: flex;
+flex-direction: column;
+
+}
+
+.contact .input-wrap-2 input {
+  margin-bottom: 2rem;
+
+}
+
+.contact .input-wrap-2 textarea,
+.contact input {
+padding: 0.5rem;
+}
+
+
+.contact .input-wrap-2 textarea:focus,
+.contact input:focus {
+  outline: none;
+}
+
+.contact .btn-wrapper {
+  margin-top: 2rem;
 }
