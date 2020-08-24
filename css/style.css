@@ -17,13 +17,23 @@
   -webkit-font-smoothing: antialiased;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 header {
   background: var(--dark);
   clip-path: polygon(0 0,  100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+
+.svg-text {
+  font: italic 40px serif;
+  fill: #F50057
 }
 
 .container {
