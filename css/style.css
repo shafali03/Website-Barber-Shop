@@ -28,7 +28,6 @@ body {
 
 header {
   background: var(--dark);
-  clip-path: polygon(0 0,  100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
 .svg-text {
@@ -71,7 +70,7 @@ header nav .logo {
 }
 
 .hero .left img {
-  width: 500px;
+  width: 70%;
 }
 
 .hero .right {
@@ -425,4 +424,180 @@ footer .footer-socials a {
 
 .copyright {
   color: var(--grey); 
+}
+
+
+@media (max-width: 1024px) {
+  header #main-nav {
+    display: none;
+
+  }
+}
+
+.site-main-wrapper {
+  position: relative;
+}
+
+.hamburger {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 11;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger img {
+  width: 30px;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+  background: var(--pure);
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  padding-top: 5rem;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+
+.times {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.times img {
+  width: 30px;
+}
+
+.mobile-nav ul {
+  list-style-type: none;
+}
+
+.mobile-nav ul li a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+
+@media (max-width: 1024px) {
+  header #main-nav {
+    display: none;
+  }
+  .hero .left img {
+    width: 60%;
+  }
+
+
+  .book-now-container {
+    padding-bottom: 3rem;
+  }
+  .right h1 {
+    font-size: 3rem;
+  }
+  .hero {
+  padding-top: 10rem;
+  }
+  .about-us-img {
+    height: 350px;
+  }
+  section.services .card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section.work .card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section.blog .card-wrapper {
+     grid-template-columns: repeat(1, 1fr);
+  }
+  section.blog {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero .right h1 {
+    font-size: 3rem;
+  }
+  header {
+  height: 80vh;
+}
+  .hero .right {
+    position: absolute;
+    top: 260px;
+    padding: 0 2rem;
+  }
+  .hero {
+    padding-top: 5rem;
+  }
+
+  .hero .left {
+    margin-top: -5rem;
+    margin-right: -9rem;
+    padding-bottom: 4rem;
+  }
+
+  .about-wrap {
+    flex-direction: column;
+  }
+
+  .about .right {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  section {
+    padding: 4rem 0;
+  }
+
+ section.services .card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+ }
+
+section.reviews .slider .slide {
+  padding: 0;
+}
+
+.section-heading + p {
+    margin-bottom: 3rem;
+ }
+
+ section.blog .card-wrapper {
+    padding: 0px 2rem;
+}
+
+section.work .card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  section.contact .card-wrapper {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  section.contact .input-wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
