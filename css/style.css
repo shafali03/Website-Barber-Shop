@@ -502,8 +502,15 @@ footer .footer-socials a {
   header #main-nav {
     display: none;
   }
+  .hamburger {
+    display: block;
+  }
   .hero .left img {
-    width: 60%;
+    width: 75%;
+  }
+
+   .hero .left {
+    padding-bottom: 9rem;
   }
 
 
@@ -511,7 +518,7 @@ footer .footer-socials a {
     padding-bottom: 3rem;
   }
   .right h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   .hero {
   padding-top: 10rem;
@@ -550,14 +557,18 @@ footer .footer-socials a {
     top: 260px;
     padding: 0 2rem;
   }
+  .hero .left img {
+    width: 45%;
+  }
   .hero {
     padding-top: 5rem;
   }
 
   .hero .left {
-    margin-top: -5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
     margin-right: -9rem;
-    padding-bottom: 4rem;
+    /* padding-bottom: 5rem; */
   }
 
   .about-wrap {
