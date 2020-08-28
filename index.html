@@ -11,9 +11,6 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-
-  <link rel="manifest" href="/manifest.webmanifest">
-
 </head>
 
 <body>
@@ -24,12 +21,17 @@
 
 
     <div class="mobile-nav">
-      <button class="times"><img src="./images/times.svg" alt=""></button>
+      <button class="times"><img src="./images/times.svg" alt="close"></button>
       <ul>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Services</li>
-        <li><a href="#"></a>Blog</li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li><a href="#about">About</a>
+        </li>
+        <li><a href="#services">Services</a>
+        </li>
+        <li><a href="#blog">Blog</a>
+        </li>
       </ul>
     </div>
 
@@ -82,8 +84,8 @@
           <img class="about-us-img" src="./images/about-us.jpg" alt="">
         </div>
         <div class="flex-1 right">
-          <h1 class="section-heading">About <span>Us</span></h1>
-          <h3>Hello I'm John Wick</h3>
+          <h3 class="section-heading">About <span>Us</span></h3>
+          <h4>Hello I'm John Wick</h4>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptas, modi voluptates dolorum
             nesciunt
             quidem eos doloribus eius, labore, aliquam ut distinctio. Dicta repellendus magni natus fuga temporibus
@@ -102,47 +104,46 @@
 
     <section class="services" id="services">
       <div class="container">
-        <h1 class="section-heading"><span>Our</span> Services</h1>
+        <h3 class="section-heading"><span>Our</span> Services</h3>
         <p>Our friendly team provides high quality hair cuts</p>
         <div class="card-wrapper">
 
           <div class="card">
             <img src="" alt="">
-            <h2>Beard Treatment</h2>
-            <p>Haircut, shampoo & hot towel finish</p>
+            <h4>Beard Treatment</h4>
+            <p>Hot towel finish</p>
           </div>
 
 
           <div class="card">
             <img src="" alt="">
-            <h2>Beard Treatment</h2>
-            <p>Haircut, shampoo & hot towel finish</p>
+            <h4>Beard</h4>
+            <p>hot towel finish</p>
           </div>
 
 
           <div class="card">
             <img src="" alt="">
-            <h2>Beard Treatment</h2>
-            <p>Haircut, shampoo & hot towel finish</p>
-          </div>
-
-
-          <div class="card">
-            <img src="" alt="">
-            <h2>Beard Treatment</h2>
+            <h4>Beard & Hair Cut</h4>
             <p>Haircut, shampoo & hot towel finish</p>
           </div>
 
           <div class="card">
             <img src="" alt="">
-            <h2>Beard Treatment</h2>
-            <p>Haircut, shampoo & hot towel finish</p>
+            <h4>Hair Cut</h4>
+            <p>shampoo & wash</p>
           </div>
 
           <div class="card">
             <img src="" alt="">
-            <h2>Beard Treatment</h2>
-            <p>Haircut, shampoo & hot towel finish</p>
+            <h4>Facial hair remove</h4>
+            <p>Hot towel finish</p>
+          </div>
+
+          <div class="card">
+            <img src="" alt="">
+            <h4>Trim Cut</h4>
+            <p>Shampoo & wash </p>
           </div>
         </div>
       </div>
@@ -152,11 +153,11 @@
 
     <section class="reviews">
       <div class="container">
-        <h1 class="section-heading"><span>Our</span> Client</h1>
+        <h3 class="section-heading"><span>Our</span> Client</h3>
         <p>We provide high standards hair cuts for men and women</p>
         <div class="slider">
           <div class="slide">
-            <img src="./images/client.jpg" alt="">
+            <img src="./images/client.jpg" alt="client image">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sint provident ducimus alias quas? Illum
               quo reprehenderit quisquam earum iure. Blanditiis optio magni expedita cumque commodi, adipisci totam sunt
               a.</p>
@@ -165,7 +166,7 @@
 
 
           <div class="slide">
-            <img src="./images/client.jpg" alt="">
+            <img src="./images/client-fi.jpg" alt="client image">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sint provident ducimus alias quas? Illum
               quo reprehenderit quisquam earum iure. Blanditiis optio magni expedita cumque commodi, adipisci totam sunt
               a.</p>
@@ -174,7 +175,7 @@
 
 
           <div class="slide">
-            <img src="./images/client.jpg" alt="">
+            <img src="./images/client-three.jpg" alt="client image">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sint provident ducimus alias quas? Illum
               quo reprehenderit quisquam earum iure. Blanditiis optio magni expedita cumque commodi, adipisci totam sunt
               a.</p>
@@ -183,7 +184,7 @@
 
 
           <div class="slide">
-            <img src="./images/client.jpg" alt="">
+            <img src="./images/client-four.jpg" alt="client image">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sint provident ducimus alias quas? Illum
               quo reprehenderit quisquam earum iure. Blanditiis optio magni expedita cumque commodi, adipisci totam sunt
               a.</p>
@@ -199,7 +200,7 @@
 
     <section class="work">
       <div class="container">
-        <h1 class="section-heading"><span>Our</span> Works</h1>
+        <h3 class="section-heading"><span>Our</span> Works</h3>
         <p>Professional, family owned and operated barbers offering a traditional barber shop experience</p>
 
 
@@ -236,17 +237,17 @@
 
     <section class="blog" id="blog">
       <div class="container">
-        <h1 class="section-heading"><span>Our</span> Blogs</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab odit quo. </p>
+        <h3 class="section-heading"><span>Our</span> Blogs</h3>
+        <p class="blog-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab odit quo. </p>
       </div>
       <div class="card-wrapper">
         <div class="card">
           <div class="img-wrapper">
-            <img src="./images/blog-one.jpg" alt="">
+            <img src="./images/blog-one.jpg" alt="blog one">
           </div>
           <div class="card-content">
             <a href="#">
-              <h1>Street cuts</h1>
+              <h3>Street cuts</h3>
             </a>
             <span>May 21 2018</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae aliquid repellat totam ex molestias
@@ -258,11 +259,11 @@
 
         <div class="card">
           <div class="img-wrapper">
-            <img src="./images/blog-three.jpg" alt="">
+            <img src="./images/blog-three.jpg" alt="blog two">
           </div>
           <div class="card-content">
             <a href="#">
-              <h1>Beard Styles</h1>
+              <h3>Beard Styles</h3>
             </a>
             <span>Sep 19 2019</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae aliquid repellat totam ex molestias
@@ -275,11 +276,11 @@
 
         <div class="card">
           <div class="img-wrapper">
-            <img src="./images/blog-two.jpg" alt="">
+            <img src="./images/blog-two.jpg" alt="blog three">
           </div>
           <div class="card-content">
             <a href="#">
-              <h1>London Opening Soon</h1>
+              <h3>London Opening Soon</h3>
             </a>
             <span>Aug 14 2020</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae aliquid repellat totam ex molestias
@@ -298,7 +299,7 @@
 
     <section class="contact">
       <div class="container">
-        <h1 class="section-heading"><span> Contact</span> Us</h1>
+        <h3 class="section-heading"><span> Contact</span> Us</h3>
         <p>Book your appointment, send us a email or walk in to our barber shop</p>
         <div class="card-wrapper">
           <div class="card">
