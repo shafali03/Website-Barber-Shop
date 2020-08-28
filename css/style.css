@@ -28,6 +28,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 header {
   background: var(--dark);
 }
@@ -582,7 +584,7 @@ footer .footer-socials a {
     margin-top: 1rem;
     margin-left: 5rem;
     margin-right: -9rem;
-    /* padding-bottom: 5rem; */
+    padding-bottom: 5rem;
   }
 
   .about-wrap {
