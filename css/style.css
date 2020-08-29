@@ -21,17 +21,18 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: 'Lato', sans-serif;
-  overflow-x: hidden;
 }
 
 
 
 header {
   background: var(--dark);
+  
 }
 
 .svg-text {
@@ -106,7 +107,6 @@ h3 span {
 .hero .right {
   margin-top: -7rem;
 }
-
 
 /* About 
 ******************/
@@ -306,9 +306,10 @@ section.blog .card-wrapper {
 }
 
 .card .card-content {
-  padding: 1rem;
+  /* padding: 1rem;
   padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 2rem; */
+  padding: 1rem 2rem;
 }
 
 .card .img-wrapper img {
@@ -326,7 +327,7 @@ section.blog .card-wrapper {
   font-weight: 600;
 }
 
-.card .card-content h1:hover {
+.card .card-content h3:hover {
   color: var(--primary);
 }
 
@@ -566,7 +567,7 @@ footer .footer-socials a {
     font-size: 3rem;
   }
   header {
-  height: 80vh;
+  height: 100vh;
 }
   .hero .right {
     position: absolute;
@@ -574,7 +575,7 @@ footer .footer-socials a {
     padding: 0 2rem;
   }
   .hero .left img {
-    width: 45%;
+    width: 55%;
   }
   .hero {
     padding-top: 5rem;
@@ -583,12 +584,15 @@ footer .footer-socials a {
   .hero .left {
     margin-top: 1rem;
     margin-left: 5rem;
-    margin-right: -9rem;
     padding-bottom: 5rem;
   }
 
   .about-wrap {
     flex-direction: column;
+  }
+
+  .about-us-img  {
+    padding: 2.5rem;
   }
 
   .about .right {
